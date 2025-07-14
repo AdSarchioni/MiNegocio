@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MiNegocio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+385e779ad19db2fb6c147baf5a679e70aec70910")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8429199707a5b3e41db871e16d944752a09e6a31")]
 [assembly: System.Reflection.AssemblyProductAttribute("MiNegocio")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MiNegocio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

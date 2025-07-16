@@ -3,8 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\adsar\\Documents\\GitHub\\MiNegocio\\miNegocio\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{21868C01-BEA9-4EFD-860B-A075B6AF0006}|MiNegocio\\MiNegocio.csproj|c:\\users\\adsar\\documents\\github\\minegocio\\minegocio\\minegocio\\controllers\\direccionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21868C01-BEA9-4EFD-860B-A075B6AF0006}|MiNegocio\\MiNegocio.csproj|solutionrelative:minegocio\\controllers\\direccionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{21868C01-BEA9-4EFD-860B-A075B6AF0006}|MiNegocio\\MiNegocio.csproj|c:\\users\\adsar\\documents\\github\\minegocio\\minegocio\\minegocio\\pages\\usuarios\\logosadasut.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21868C01-BEA9-4EFD-860B-A075B6AF0006}|MiNegocio\\MiNegocio.csproj|solutionrelative:minegocio\\pages\\usuarios\\logosadasut.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21868C01-BEA9-4EFD-860B-A075B6AF0006}|MiNegocio\\MiNegocio.csproj|c:\\users\\adsar\\documents\\github\\minegocio\\minegocio\\minegocio\\pages\\usuarios\\entrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21868C01-BEA9-4EFD-860B-A075B6AF0006}|MiNegocio\\MiNegocio.csproj|solutionrelative:minegocio\\pages\\usuarios\\entrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21868C01-BEA9-4EFD-860B-A075B6AF0006}|MiNegocio\\MiNegocio.csproj|c:\\users\\adsar\\documents\\github\\minegocio\\minegocio\\minegocio\\pages\\usuarios\\cambiopassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21868C01-BEA9-4EFD-860B-A075B6AF0006}|MiNegocio\\MiNegocio.csproj|solutionrelative:minegocio\\pages\\usuarios\\cambiopassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21868C01-BEA9-4EFD-860B-A075B6AF0006}|MiNegocio\\MiNegocio.csproj|c:\\users\\adsar\\documents\\github\\minegocio\\minegocio\\minegocio\\pages\\usuarios\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21868C01-BEA9-4EFD-860B-A075B6AF0006}|MiNegocio\\MiNegocio.csproj|solutionrelative:minegocio\\pages\\usuarios\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21868C01-BEA9-4EFD-860B-A075B6AF0006}|MiNegocio\\MiNegocio.csproj|c:\\users\\adsar\\documents\\github\\minegocio\\minegocio\\minegocio\\modelos\\wiewpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21868C01-BEA9-4EFD-860B-A075B6AF0006}|MiNegocio\\MiNegocio.csproj|solutionrelative:minegocio\\modelos\\wiewpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21868C01-BEA9-4EFD-860B-A075B6AF0006}|MiNegocio\\MiNegocio.csproj|c:\\users\\adsar\\documents\\github\\minegocio\\minegocio\\minegocio\\pages\\usuarios\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21868C01-BEA9-4EFD-860B-A075B6AF0006}|MiNegocio\\MiNegocio.csproj|solutionrelative:minegocio\\pages\\usuarios\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21868C01-BEA9-4EFD-860B-A075B6AF0006}|MiNegocio\\MiNegocio.csproj|c:\\users\\adsar\\documents\\github\\minegocio\\minegocio\\minegocio\\pages\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21868C01-BEA9-4EFD-860B-A075B6AF0006}|MiNegocio\\MiNegocio.csproj|solutionrelative:minegocio\\pages\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +43,92 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DireccionesController.cs",
-              "DocumentMoniker": "C:\\Users\\adsar\\Documents\\GitHub\\MiNegocio\\miNegocio\\miNegocio\\Controllers\\DireccionesController.cs",
-              "RelativeDocumentMoniker": "miNegocio\\Controllers\\DireccionesController.cs",
-              "ToolTip": "C:\\Users\\adsar\\Documents\\GitHub\\MiNegocio\\miNegocio\\miNegocio\\Controllers\\DireccionesController.cs",
-              "RelativeToolTip": "miNegocio\\Controllers\\DireccionesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMoAAAAAAAAAAAAAAA==",
+              "Title": "Logosadasut.cshtml",
+              "DocumentMoniker": "C:\\Users\\adsar\\Documents\\GitHub\\MiNegocio\\miNegocio\\miNegocio\\Pages\\Usuarios\\Logosadasut.cshtml",
+              "RelativeDocumentMoniker": "miNegocio\\Pages\\Usuarios\\Logosadasut.cshtml",
+              "ToolTip": "C:\\Users\\adsar\\Documents\\GitHub\\MiNegocio\\miNegocio\\miNegocio\\Pages\\Usuarios\\Logosadasut.cshtml",
+              "RelativeToolTip": "miNegocio\\Pages\\Usuarios\\Logosadasut.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-16T01:22:06.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Entrar.cshtml",
+              "DocumentMoniker": "C:\\Users\\adsar\\Documents\\GitHub\\MiNegocio\\miNegocio\\miNegocio\\Pages\\Usuarios\\Entrar.cshtml",
+              "RelativeDocumentMoniker": "miNegocio\\Pages\\Usuarios\\Entrar.cshtml",
+              "ToolTip": "C:\\Users\\adsar\\Documents\\GitHub\\MiNegocio\\miNegocio\\miNegocio\\Pages\\Usuarios\\Entrar.cshtml",
+              "RelativeToolTip": "miNegocio\\Pages\\Usuarios\\Entrar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-16T01:20:31.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "wiewPassword.cs",
+              "DocumentMoniker": "C:\\Users\\adsar\\Documents\\GitHub\\MiNegocio\\miNegocio\\miNegocio\\Modelos\\wiewPassword.cs",
+              "RelativeDocumentMoniker": "miNegocio\\Modelos\\wiewPassword.cs",
+              "ToolTip": "C:\\Users\\adsar\\Documents\\GitHub\\MiNegocio\\miNegocio\\miNegocio\\Modelos\\wiewPassword.cs",
+              "RelativeToolTip": "miNegocio\\Modelos\\wiewPassword.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T02:20:36.033Z",
+              "WhenOpened": "2025-07-16T01:18:26.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CambioPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\adsar\\Documents\\GitHub\\MiNegocio\\miNegocio\\miNegocio\\Pages\\Usuarios\\CambioPassword.cshtml",
+              "RelativeDocumentMoniker": "miNegocio\\Pages\\Usuarios\\CambioPassword.cshtml",
+              "ToolTip": "C:\\Users\\adsar\\Documents\\GitHub\\MiNegocio\\miNegocio\\miNegocio\\Pages\\Usuarios\\CambioPassword.cshtml",
+              "RelativeToolTip": "miNegocio\\Pages\\Usuarios\\CambioPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-16T01:15:51.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\adsar\\Documents\\GitHub\\MiNegocio\\miNegocio\\miNegocio\\Pages\\Usuarios\\Editar.cshtml",
+              "RelativeDocumentMoniker": "miNegocio\\Pages\\Usuarios\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\adsar\\Documents\\GitHub\\MiNegocio\\miNegocio\\miNegocio\\Pages\\Usuarios\\Editar.cshtml",
+              "RelativeToolTip": "miNegocio\\Pages\\Usuarios\\Editar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-16T01:14:17.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Crear.cshtml",
+              "DocumentMoniker": "C:\\Users\\adsar\\Documents\\GitHub\\MiNegocio\\miNegocio\\miNegocio\\Pages\\Usuarios\\Crear.cshtml",
+              "RelativeDocumentMoniker": "miNegocio\\Pages\\Usuarios\\Crear.cshtml",
+              "ToolTip": "C:\\Users\\adsar\\Documents\\GitHub\\MiNegocio\\miNegocio\\miNegocio\\Pages\\Usuarios\\Crear.cshtml",
+              "RelativeToolTip": "miNegocio\\Pages\\Usuarios\\Crear.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-16T01:12:40.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\adsar\\Documents\\GitHub\\MiNegocio\\miNegocio\\miNegocio\\Pages\\Usuarios\\Index.cshtml",
+              "RelativeDocumentMoniker": "miNegocio\\Pages\\Usuarios\\Index.cshtml",
+              "ToolTip": "C:\\Users\\adsar\\Documents\\GitHub\\MiNegocio\\miNegocio\\miNegocio\\Pages\\Usuarios\\Index.cshtml",
+              "RelativeToolTip": "miNegocio\\Pages\\Usuarios\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-16T01:11:35.327Z",
               "EditorCaption": ""
             }
           ]

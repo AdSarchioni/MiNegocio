@@ -1,0 +1,82 @@
+﻿@model IEnumerable<miNegocio.Modelos.DireccionConUsuario>
+
+@{
+    ViewData["Title"] = "Direcciones";
+}
+
+<h1>Direcciones</h1>
+
+<p>
+    <a asp-action="Crear" class="btn btn-primary">Crear Nueva Dirección</a>
+</p>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.First().Direccion.direccionId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().Direccion.calleDireccion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().Direccion.ciudad)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().Direccion.provincia)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().Direccion.codigoPostal)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().Direccion.usuarioId)
+            </th>
+            <th>
+                Usuario
+            </th>
+            <th>
+                Estado
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Direccion.direccionId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Direccion.calleDireccion)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Direccion.ciudad)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Direccion.provincia)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Direccion.codigoPostal)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Direccion.usuarioId)
+                </td>
+                <td>
+                    @item.NombreUsuario @item.ApellidoUsuario
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Direccion.estado, "Estado")
+                </td>
+                <td>
+                    <a asp-action="Editar" asp-route-id="@item.Direccion.direccionId" class="btn btn-warning">Editar</a> |
+                    <a asp-action="Detalles" asp-route-id="@item.Direccion.direccionId" class="btn btn-info">Detalles</a> |
+                    <form asp-action="Delete" asp-route-id="@item.Direccion.direccionId" method="post" style="display:inline;">
+                        <button type="submit" class="btn btn-danger" onclick="return confirm('¿Está seguro de que desea eliminar esta dirección?');">Eliminar</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

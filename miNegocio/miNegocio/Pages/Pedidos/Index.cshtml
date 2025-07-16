@@ -1,0 +1,89 @@
+﻿@model miNegocio.Modelos.PedidosIndexViewModel
+
+<h1>Listado de Pedidos</h1>
+
+<!-- Filtro por Estado -->
+<form method="post" asp-controller="Pedidos" asp-action="Filtrar">
+    <div class="form-group">
+        <label asp-for="EstadoSeleccionado" class="control-label">Filtrar por Estado</label>
+        <select asp-for="EstadoSeleccionado" class="form-control">
+            <option value="Todos">Todos</option>
+            <option value="Recibidos">Recibidos</option>
+            <option value="En Proceso">En Proceso</option>
+            <option value="Enviados">Enviados</option>
+        </select>
+        <span asp-validation-for="EstadoSeleccionado" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Aplicar Filtro</button>
+</form>
+
+<!-- Tabla de Pedidos -->
+<table class="table">
+    <thead>
+        <tr>
+            <th># Pedido</th>
+            <th>Usuario</th>
+            <th>Fecha</th>
+            <th>Total</th>
+            <th>Estado</th>
+            <th>Detalles</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var pedido in Model.Pedidos)
+        {
+            <tr>
+                <td>@pedido.pedidoId</td>
+                <td>@pedido.usuarioId</td>
+                <td>@pedido.fechaPedido.ToShortDateString()</td>
+                <td>@pedido.total.ToString("C")</td>
+                <td>
+                    <div class="estado-container">
+                        <span class="estado-circulo @(pedido.estado == 1 ? "estado-rojo" : pedido.estado == 2 ? "estado-amarillo" : pedido.estado == 3 ? "estado-verde" : "estado-gris")"></span>
+                        @(pedido.estado == 1 ? "Recibidos" : pedido.estado == 2 ? "En Proceso" : pedido.estado == 3 ? "Enviados" : "Desconocido")
+                    </div>
+                </td>
+                <td>
+                    <a asp-action="Detalles" asp-controller="Pedidos" asp-route-id="@pedido.pedidoId" class="btn btn-info">Ver Detalles</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- Estilos CSS -->
+<style>
+    /* Contenedor del estado */
+    .estado-container {
+        display: flex;
+        align-items: center;
+    }
+
+    /* Estilo base para los círculos */
+    .estado-circulo {
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        margin-right: 8px;
+    }
+
+    /* Colores para cada estado */
+    .estado-rojo {
+        background-color: red;
+    }
+
+    .estado-amarillo {
+        background-color: yellow;
+    }
+
+    .estado-verde {
+        background-color: green;
+    }
+
+    .estado-gris {
+        background-color: gray;
+    }
+</style>
+
+

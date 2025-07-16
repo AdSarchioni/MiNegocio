@@ -1,0 +1,41 @@
+﻿@model miNegocio.Modelos.DireccionConUsuario
+
+@{
+    ViewData["Title"] = "Detalles";
+}
+
+<h1>Detalles de la Dirección</h1>
+
+<h4>Dirección</h4>
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <dl class="row">
+            <dt class="col-sm-4">Calle</dt>
+            <dd class="col-sm-8">@Model.Direccion.calleDireccion</dd>
+
+            <dt class="col-sm-4">Ciudad</dt>
+            <dd class="col-sm-8">@Model.Direccion.ciudad</dd>
+
+            <dt class="col-sm-4">Provincia</dt>
+            <dd class="col-sm-8">@Model.Direccion.provincia</dd>
+
+            <dt class="col-sm-4">Código Postal</dt>
+            <dd class="col-sm-8">@Model.Direccion.codigoPostal</dd>
+
+            <!-- #re-->
+            <dt class="col-sm-4">Id del Usuario</dt>
+            <dd class="col-sm-8">@Model.Direccion.usuarioId</dd>
+
+            <dt class="col-sm-4">Nombre del Usuario</dt>
+            <dd class="col-sm-8">@Model.NombreUsuario</dd>
+
+            <dt class="col-sm-4">Apellido del Usuario</dt>
+            <dd class="col-sm-8">@Model.ApellidoUsuario</dd>
+        </dl>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Volver a la Lista</a>
+</div>

@@ -1,4 +1,4 @@
-﻿namespace MiNegocio.Modelos
+﻿namespace miNegocio.Modelos
 {
     public class wiewPassword
     {
